@@ -143,7 +143,7 @@ def f1_ui():
 
     radio1=tkinter.Radiobutton(labelframe, text="   naver                     ", value="naver", variable=RadioVariety_1, command=check)
     radio1.pack(side="left") 
-    radio2=tkinter.Radiobutton(labelframe, text="   google                    ", value="gmail", variable=RadioVariety_1, command=check)
+    radio2=tkinter.Radiobutton(labelframe, text="   google                    ", value="google", variable=RadioVariety_1, command=check)
     radio2.pack(side="left")
     label=tkinter.Label(labelframe, text="이메일 선택")
     radio2.pack(side="left")

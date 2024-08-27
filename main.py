@@ -8,7 +8,7 @@ import sqlite3
 from db import  select, update ,google_list,naver_list
 from send import send1 ,send2 
 from excelSend import excelplay
-
+import openpyxl
 
 root = Tk()
 root.title("NADO GUI")
